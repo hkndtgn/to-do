@@ -1,0 +1,139 @@
+body{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	width: 600px;
+	background-color: rgba(51, 255, 51, 0.3);
+	border-radius: 10px;
+	border-style:dotted;
+	color: rgba(255, 255, 255, 0.3);
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 150px;
+	margin-top: 180px;
+	overflow: hidden;
+}
+
+hr{
+	border-style:dotted;
+}
+
+.input{
+	color: #363639;
+} 
+
+.list{
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.list .header{
+	font-family: "Shadows Into Lights Two", cursive;
+	margin: 0 0 10px 0;
+}
+
+.items{
+	margin: 0;
+	font-size: 20px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.items li:hover .done-button, .items li .undo-button:hover, .items li .delete-button:hover, .items li .update-button:hover {
+	opacity: 1;
+}
+
+.items .done {
+	text-decoration: line-through;
+}
+
+.items li, .item-add .input{
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+}
+
+.input{
+	width: 100%;
+	padding-right: 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.input:focus{
+	outline: none;
+}
+
+.undo-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: green;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+	margin-left: 5px;
+	right: 0;
+	position: relative;
+	font-size: 10pt;
+}
+
+.delete-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: red;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+	margin-left: 5px;
+		right: 0;
+	position: relative;
+	font-size: 10pt;
+}
+
+.update-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: red;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+	right: 0;
+	position: relative;
+	margin-left: 5px;
+	font-size: 10pt;
+}
+
+.done-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+	float: right;
+	margin-right: 10px;
+}
+
+.aboutme{
+	font-size: 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.submit{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 2px px 0 #ddd;
+}
+
